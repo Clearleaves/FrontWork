@@ -1,0 +1,98 @@
+.main-right {
+    /* margin-top: 10px; */
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 23%;
+    height: 50px;
+    display: flex;
+    flex-direction:column;
+    
+    /* border: 1px solid blue; */
+}
+.main-right .main-right-top {
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    width: 100%;
+    height: 350px;
+    background-color: rgb(255, 255, 255);
+    /* border: 1px solid red; */
+    margin-bottom: 10px;
+}
+.main-right .main-right-top h3 {
+    background-color: rgb(255, 255, 255);
+}
+.main-right .main-right-top img {
+    width: 80%;
+    height: 90%;
+}
+.mian-right-article{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+    /* border: 1px solid blue; */
+    background-color: rgb(255, 255, 255);
+}
+.mian-right-article img{
+    width: 90%;
+    height: 140px;
+    margin: 10px 4px;
+}
+.mian-right-article-items{
+
+}
+.mian-right-article ul {
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+}
+.mian-right-article ul li {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    border-bottom: 1px solid rgb(221, 221, 221);
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    height: 30px;
+    /* text-align: center; */
+    /* padding: 2px 0px; */
+    margin: 0px 0px;
+    margin-bottom: 10px;
+}
+.main-right-icon{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 300px;
+    /* border: 1px solid green; */
+    background-color: rgb(255, 255, 255);
+}
+.main-right-icon h3 {
+    margin: 5px 5px;
+}
+.main-right-icon .main-right-icon-items {
+    display: flex;
+    flex-wrap:wrap;
+    background-color: white;
+    width: 100%;
+    height: 250px;
+    margin-top: 10px;
+}
+.main-right-icon .main-right-icon-items .main-right-icon-item {
+    height: 15px;
+    /* width: 50px; */
+    /* width: 100%; */
+    padding: 5px 5px;
+    margin: 5px 5px;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(216, 216, 216);
+}
+.main-right-icon .main-right-icon-items .main-right-icon-item :hover .animated .bounce{
+    
+}
